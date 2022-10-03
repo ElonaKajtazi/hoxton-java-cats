@@ -10,6 +10,6 @@ public class Cat {
     }
 
     void displayInfo() {
-        System.out.println(("This is " + name + ", who is " + age + " years old. " + name  + (likesCuddles ? "" : " doesn't ")+ " like(s) cuddles!"));
+        System.out.println(("This is " + name + ", who is " + age + " years old. " + name  + (likesCuddles ? " " : " doesn't ")+ " like(s) cuddles!"));
     }
 }
